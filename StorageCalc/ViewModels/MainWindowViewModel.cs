@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace StorageCalc.ViewModels
 {
-    internal class MainWindowViewModel
+    public class MainWindowViewModel
     {
         public (string TotalSize, string FaultTolerance) Calculate(string txtDiskCount, string txtDiskSpace, bool? raid0, bool? raid1, bool? raid5, bool? raid6, bool? raid10)
         {
